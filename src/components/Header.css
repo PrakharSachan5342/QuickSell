@@ -1,0 +1,75 @@
+.header {
+  padding: 16px 24px;
+  background: white;
+  border-bottom: 1px solid #e6e7eb;
+  position: relative;
+}
+
+.display-dropdown {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  border: 1px solid #e6e7eb;
+  border-radius: 6px;
+  cursor: pointer;
+  background: white;
+  font-size: 14px;
+  color: #373737;
+}
+
+.display-icon {
+  color: #787486;
+  font-size: 14px;
+}
+
+.dropdown-arrow {
+  font-size: 10px;
+  color: #787486;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 24px;
+  background: white;
+  border: 1px solid #e6e7eb;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  z-index: 1000;
+  min-width: 240px;
+}
+
+.dropdown-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 12px;
+  color: #787486;
+}
+
+.dropdown-item:last-child {
+  margin-bottom: 0;
+}
+
+.dropdown-item select {
+  padding: 4px 8px;
+  border: 1px solid #e6e7eb;
+  border-radius: 4px;
+  outline: none;
+  color: #373737;
+  font-size: 14px;
+  min-width: 120px;
+  background: white;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23787486' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  background-size: 12px;
+  padding-right: 32px;
+  cursor: pointer;
+}

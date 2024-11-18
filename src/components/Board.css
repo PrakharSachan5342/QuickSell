@@ -1,0 +1,69 @@
+.board {
+  display: flex;
+  gap: 32px;
+  padding: 24px;
+  overflow-x: auto;
+  min-height: calc(100vh - 70px);
+}
+
+.board-column {
+  min-width: 320px;
+  background: transparent;
+}
+
+.column-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  color: #373737;
+}
+
+.column-header-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.status-icon {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.status-icon.todo {
+  color: #787486;
+}
+
+.status-icon.in-progress {
+  color: #f1c950;
+}
+
+.status-icon.done {
+  color: #5c61f0;
+}
+
+.status-icon.canceled {
+  color: #94a2b3;
+}
+
+.column-title {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.ticket-count {
+  color: #787486;
+  background: #e6e7eb;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.column-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
