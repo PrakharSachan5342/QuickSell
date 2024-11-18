@@ -6,20 +6,6 @@ QuickSell is a feature-rich project management tool designed to streamline the o
 
 ---
 
-## 📖 Table of Contents
-
-- [About the Project](#about-the-project)
-- [Features](#features)
-- [Screenshots](#screenshots)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
----
-
 ## 📝 About the Project
 
 QuickSell is a web-based task management system that provides an easy-to-use Kanban board interface. It helps teams and individuals track and manage tasks in **To-Do**, **In Progress**, and **Done** categories. Each task is prioritized and tagged for clarity and better organization.
@@ -33,14 +19,6 @@ QuickSell is a web-based task management system that provides an easy-to-use Kan
 - 📱 **Responsive Design**: Fully responsive layout for desktop and mobile users.
 - 📝 **Task Details**: Add custom tags and descriptions for clarity.
 - ⬆️ **Status Update**: Drag and drop tasks across the board to update their status.
-
----
-
-## 📸 Screenshots
-
-### Kanban Board Interface
-
-![Kanban Board](path/to/screenshot.png)
 
 ---
 
